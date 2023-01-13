@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/python-3
 {
-	"name": "Python 3-11",
+	"name": "Python 3",
 	"forwardPorts": [8000],
 	"build": {
 		"dockerfile": "Dockerfile",
@@ -26,24 +26,15 @@
 				"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
 				"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
 				"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
-        "python.testing.unittestEnabled": false,
-        "python.testing.pytestEnabled": true,
-        "workbench.startupEditor": "newUntitledFile",
-        "editor.fontFamily": "'Jetbrains Mono'",
-        "editor.fontLigatures": true,
-        "workbench.iconTheme": "material-icon-theme",
-        "editor.fontSize": 18,
-        "window.zoomLevel": 1,
-        "workbench.colorTheme": "Omni"
+                "python.testing.unittestEnabled": false,
+                "python.testing.pytestEnabled": true,
+                "workbench.startupEditor": "newUntitledFile"
 			},
 			
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-python.python",
-				"ms-python.vscode-pylance",
-        "github.copilot",
-        "rocketseat.theme-omni",
-        "pkief.material-icon-theme"
+				"ms-python.vscode-pylance"
 			]
 		}
 	},
